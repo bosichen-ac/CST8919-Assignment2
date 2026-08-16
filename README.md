@@ -22,26 +22,13 @@ For each service, the report compares its general purpose, core features, securi
 
 ## Quick Comparison
 
-| Core Feature                       | Azure                         | AWS                             | GCP                              |
-| ---------------------------------- | ----------------------------- | ------------------------------- | -------------------------------- |
-| Identity and access management     | Microsoft Entra ID (Azure AD) | AWS IAM + IAM Identity Center   | Cloud Identity + Cloud IAM       |
-| Monitoring, logging, and analytics | Azure Monitor & Log Analytics | Amazon CloudWatch               | Cloud Monitoring + Cloud Logging |
-| Governance and policy enforcement  | Azure Policy                  | AWS Config                      | Organization Policy Service      |
-| Cloud security posture management  | Microsoft Defender for Cloud  | AWS Security Hub                | Security Command Center          |
-| SIEM and security operations       | Microsoft Sentinel            | Security Hub + Security Lake 等 | Google Security Operations       |
-
-
-<!--
-
-| Azure                         | AWS                              | Google Cloud                | Primary Purpose                    |
-| ----------------------------- | -------------------------------- | --------------------------- | ---------------------------------- |
-| Microsoft Entra ID            | AWS IAM / IAM Identity Center    | Cloud Identity / IAM        | Identity and access management     |
-| Azure Monitor & Log Analytics | Amazon CloudWatch                | Google Cloud Observability  | Monitoring, logging, and analytics |
-| Azure Policy                  | AWS Config                       | Organization Policy Service | Governance and policy enforcement  |
-| Microsoft Defender for Cloud  | AWS Security Hub                 | Security Command Center     | Cloud security posture management  |
-| Microsoft Sentinel            | AWS Security Hub / Security Lake | Google Security Operations  | SIEM and security operations       |
-
--->
+| Core Feature                       | Azure                         | AWS                           | GCP                              |
+| ---------------------------------- | ----------------------------- | ----------------------------- | -------------------------------- |
+| Identity and access management     | Microsoft Entra ID (Azure AD) | AWS IAM + IAM Identity Center | Cloud Identity + Cloud IAM       |
+| Monitoring, logging, and analytics | Azure Monitor & Log Analytics | Amazon CloudWatch             | Cloud Monitoring + Cloud Logging |
+| Governance and policy enforcement  | Azure Policy                  | AWS Config                    | Organization Policy Service      |
+| Cloud security posture management  | Microsoft Defender for Cloud  | AWS Security Hub              | Security Command Center          |
+| SIEM and security operations       | Microsoft Sentinel            | Security Hub + Security Lake  | Google Security Operations       |
 
 ---
 
@@ -51,7 +38,7 @@ For each service, the report compares its general purpose, core features, securi
 
 1. **Azure:** Microsoft Entra ID
 
-Microsoft Entra ID (former Azure Active Directory) is Microsoft's cloud-based identity and access management service. It provides authentication, authorization, single sign-on, role-based access control, and other identity security capabilities.
+Microsoft Entra ID (formerly Azure Active Directory) is Microsoft's cloud-based identity and access management service. It provides authentication, authorization, single sign-on, role-based access control, and other identity security capabilities.
 
 2. **AWS:** AWS IAM and IAM Identity Center
 
@@ -198,7 +185,9 @@ Google Security Command Center provides centralized security posture management,
 
 #### Security & Compliance
 
-All three services help organizations continuously evaluate cloud environments against security best practices and compliance frameworks. They centralize findings so security teams can prioritize risks and identify insecure cloud configurations.
+All three services help organizations continuously evaluate cloud environments against security best practices and compliance frameworks. 
+
+For example, Microsoft Defender for Cloud provides a regulatory compliance dashboard for assessing resources against supported standards and benchmarks. AWS Security Hub supports security standards such as CIS, PCI DSS, and NIST, while Google Security Command Center also provides compliance monitoring capabilities.
 
 #### Pricing Model
 
